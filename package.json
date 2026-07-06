@@ -7,8 +7,10 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx",
     "preview": "vite preview",
-    "test": "vitest --passWithNoTests"
+    "test": "vitest --passWithNoTests",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://VadimVoronin3831.github.io/escapeRoom",
   "dependencies": {
     "@reduxjs/toolkit": "1.9.5",
     "axios": "0.27.2",
@@ -44,6 +46,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-refresh": "0.4.1",
     "faker": "5.5.3",
+    "gh-pages": "^6.3.0",
     "jsdom": "22.1.0",
     "typescript": "5.0.4",
     "vite": "4.3.9",
