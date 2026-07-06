@@ -1,5 +1,5 @@
 export enum APP_PATH {
-  PAGE_MAIN = '/',
+  PAGE_MAIN = '/escapeRoom',
   PAGE_QUESTBOOKING = '/quest/:id/booking',
   PAGE_NOTFOUND = '*',
   PAGE_CONTACTS = '/contacts',
